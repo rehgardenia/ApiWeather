@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./fundoo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+    color: #134B70;
+    opacity: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+form{
+    color: #134B70;
+    background-color: #c6d1db;
+    width: 550px;
+    height: 300px;
+    border-radius: 10px;
+    Font-size: 16px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+ 
+}
+
+#parametro{
+    color: #134B70;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px;
+}
+#botao{
+    color: #134B70;
+    font-weight: 700;
+   border: 1px solid transparent;
+   border-radius: 5px;
+    margin: 10px 0px;
+    padding: 10px;
+}
+#botao:hover{
+    background-color: rgb(216, 216, 216);
+ }
